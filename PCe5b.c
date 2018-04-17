@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 float pm (float x){
-  int a;
-  a=(62.1*x)-44,7;
+  float a;
+  a=(62.1*x)-44.7;
   return a;
 }
 float ph (float x){
-  int a;
+  float a;
   a=(72.7*x)-58;
   return a;
 }
@@ -14,7 +14,7 @@ float ph (float x){
 int main(){
   int g;
   float h, p;
-  scanf("%d", g);
+  scanf("%d", &g);
   if(g==1){
       scanf("%f", &h);
       p=pm(h);

@@ -1,20 +1,21 @@
 #include<stdio.h>
 
 float pm (float x){
-  int a;
-  a=(62.1*x)-44,7;
+  float a;
+  a=(62.1*x)-44.7;
   return a;
 }
 float ph (float x){
-  int a;
+  float a;
   a=(72.7*x)-58;
   return a;
 }
 
 int main(){
-  int g;
+  int g=1;
+  char c;
   float h, p;
-  scanf("%d", g);
+  scanf("%d", &g);
   switch(g){
     case 1:
       scanf("%f", &h);
