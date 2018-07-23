@@ -1,0 +1,13 @@
+C:\Users\gabri\OneDrive\Documentos\UFPel\Programa��o de Computadores\PC27.c: In function 'main':
+C:\Users\gabri\OneDrive\Documentos\UFPel\Programa��o de Computadores\PC27.c:2:13: error: 'n' undeclared (first use in this function)
+ #define TAM n
+             ^
+C:\Users\gabri\OneDrive\Documentos\UFPel\Programa��o de Computadores\PC27.c:4:10: note: in expansion of macro 'TAM'
+   int *c[TAM], i;
+          ^~~
+C:\Users\gabri\OneDrive\Documentos\UFPel\Programa��o de Computadores\PC27.c:2:13: note: each undeclared identifier is reported only once for each function it appears in
+ #define TAM n
+             ^
+C:\Users\gabri\OneDrive\Documentos\UFPel\Programa��o de Computadores\PC27.c:4:10: note: in expansion of macro 'TAM'
+   int *c[TAM], i;
+          ^~~
